@@ -7,5 +7,4 @@ const Nav = (({onSearch})=>{
         </nav>
     )
 })
-
 export default Nav 

@@ -23,5 +23,4 @@ function Cards({characters, onClose}) {
       </div>
    )    
 }
-
 export default Cards
