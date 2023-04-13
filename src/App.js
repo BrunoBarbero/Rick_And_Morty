@@ -7,7 +7,7 @@ import Form from './components/Form/Form';
 import { useState, useEffect } from 'react';
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+import Favorites from './components/Favorites/Favorites';
 
 const URL_BASE = 'https://be-a-rym.up.railway.app/api/character'
 const API_KEY = 'bfbd8c3387c3.135f9a9e1c53a3f1713c'
@@ -58,13 +58,14 @@ function App() {
    return (
       <div className='App'>
          
-         { location.pathname !== '/' && <Nav onSearch={onSearch} /> }
+         { location.pathname !== '/' && <Nav onSearch={onSearch} setAccess={setAccess} /> }
             
          <Routes>
             <Route path='/' element={<Form login ={login}/>} />
             <Route path='/home' element = {<Cards onClose={onClose} characters={characters} />} />
             <Route path='/about' element={<About/>}/>
             <Route path='/detail/:id' element={<Detail/>} />  
+            <Route path='/favorites' Element={<Favorites/>} /> 
          </Routes>
          
         
