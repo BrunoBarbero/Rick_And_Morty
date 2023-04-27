@@ -1,0 +1,28 @@
+.continer{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputEmail, .inputPassword{
+    border-radius: 1.5rem;
+    text-align: center;
+    height: 3rem;
+    width: 20rem;
+    margin: 5rem 0 5rem ;
+    font-size: xx-large;
+}  
+.labelEmail, .labelPassword{
+    color: green;
+    font-size:xx-large;
+}
+.botonSubmit{
+    border-radius: 1rem;
+    font-size: xx-large;
+    border: solid 4px green;
+    
+}
+.botonSubmit:hover{
+    cursor:pointer;
+    transition: 0.5s;
+    
+}

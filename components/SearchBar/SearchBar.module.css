@@ -1,0 +1,23 @@
+.inputId{
+    background-color: black;
+    color: green;
+    border-radius: .5rem;
+    margin-left: 10rem;
+    border: solid 3px black;
+    height: 2rem;
+    width: 20rem;
+    font-weight:bold;
+    font-size: larger;
+}
+.botonAgregar{
+    background-color: black;
+    color: green;
+    border-radius: .5rem;
+    border: solid 3px black;
+    height: 2rem;
+    font-size: larger;
+}
+.botonAgregar:hover{
+    cursor: pointer;
+    color: white;
+}

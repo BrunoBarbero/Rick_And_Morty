@@ -1,0 +1,36 @@
+.contenedor{
+    background-color: green;
+    border-radius: 1.5rem;
+    width: 300px;
+    margin: 1rem;
+}
+.botonX{
+    color: green;
+    background-color: black;
+    height: 2rem;
+    width: 2rem;    
+    
+}
+.botonX:hover{
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+}
+.botonFav{
+    background-color: black;
+    height: 2rem;
+    width: 2rem;
+}
+.botonFav:hover{
+    cursor: pointer;
+
+}
+.name{
+    color: black;
+    text-decoration: underline;
+}
+.name:hover{
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+}

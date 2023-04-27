@@ -1,0 +1,23 @@
+.container{
+    
+}
+.divSelectores{
+    display: flex;
+    justify-content: center;
+}
+.divCartas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.selectorOrden, .selectorGenero{
+    background-color: green;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 10rem;
+    margin: 1.5rem;
+
+}
