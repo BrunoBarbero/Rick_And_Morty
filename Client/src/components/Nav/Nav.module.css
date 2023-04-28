@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    background-color: green;    
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-evenly ;
+    border-radius: 1.5rem;
+    
+}
+.botonAbout, .botonHome, .botonFavorites{
+    border-radius: 0.5rem;
+    margin-left: 10rem;
+    border: solid 3px black;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1px;
+}
+.botonLogOut{
+    border-radius: 0.5rem;
+    margin-left: 20rem;
+    border: solid 3px black;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1px;
+}
+.botonAbout:hover, .botonHome:hover, .botonFavorites:hover, .botonLogOut:hover{ 
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+    border: solid 3px white;
+    border-radius: 0.5rem;
+}
